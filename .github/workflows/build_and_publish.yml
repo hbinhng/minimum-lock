@@ -13,6 +13,8 @@ jobs:
           node-version: 16.x
       - run: npm install
       - run: npm run build
-      - run: npm publish
+      - name: Configure NPM publish token
+        run: npm config set //registry.npmjs.org/:_authToken $NODE_AUTH_TOKEN
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish
