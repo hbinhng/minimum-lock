@@ -2,7 +2,11 @@
   "name": "minimum-lock",
   "version": "1.0.0",
   "description": "The only minimum async lock you need.",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
@@ -12,6 +16,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hbinhng/minimum-lock.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Hai Binh Nguyen <binhmattroi@gmail.com>",
   "license": "GPL-3.0-or-later",
