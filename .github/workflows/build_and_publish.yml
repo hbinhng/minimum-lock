@@ -3,7 +3,7 @@ on:
   - push
   - pull_request
 jobs:
-  build_and_test:
+  build_and_publish:
     runs-on: ubuntu-latest
     if: ${{ startsWith(github.event.head_commit.message, 'bump:') }}
     steps:
