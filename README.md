@@ -1,4 +1,5 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Coverage Status](https://coveralls.io/repos/github/hbinhng/minimum-lock/badge.svg?branch=main)](https://coveralls.io/repos/github/hbinhng/minimum-lock/badge.svg?branch=main)
 
 # Minimum lock
 This package provides a bare minimum tool for "locking" resources.
