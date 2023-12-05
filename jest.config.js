@@ -9,6 +9,7 @@ const config = {
   },
   collectCoverageFrom: ['**/*.(t|j)s'],
   coverageDirectory: './coverage',
+  coveragePathIgnorePatterns: ['index.ts'],
   testEnvironment: 'node',
   roots: ['<rootDir>/src/'],
   moduleNameMapper: {
