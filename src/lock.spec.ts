@@ -1,4 +1,4 @@
-import { Lock } from './';
+import { Lock } from './lock';
 
 describe('lock', () => {
   it('acquire test', async () => {
