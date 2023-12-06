@@ -3,20 +3,13 @@
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES6",
-    "sourceMap": true,
+    "target": "ES2020",
+    "sourceMap": false,
     "outDir": "./dist",
     "baseUrl": "./src",
-    "incremental": true,
-    "skipLibCheck": true,
     "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["./src"],
   "exclude": ["./dist", "**/*.spec.ts"]
